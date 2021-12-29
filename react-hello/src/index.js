@@ -7,6 +7,18 @@ function HelloWorld(){
     </div>;
 }
 
+// const HelloWorld = function(){
+//   return <div>
+//       <Hello/> 
+//     </div>;
+// };
+
+// const HelloWorld = () => {
+//   return <div>
+//   <Hello/> 
+// </div>;
+// };
+
 function Hello(){
 //   const name = 'Jane!';
 // return(
@@ -16,13 +28,13 @@ function Hello(){
 // return(
 //   <span>{isHello ? 'Hello' : 'Goodbye'}</span>
 // )
-// let isHello = true;
-// return(
-//   <span>
-//     {isHello && 'Hello'}
-//     {!isHello && 'Goodbye'}
-//     </span>
-// )
+let isHello = true;
+return(
+  <span>
+    {isHello && 'Hello'}
+    {!isHello && 'Goodbye'}
+    </span>
+)
 }
 // function World(){
 //   return<span>World</span>;
